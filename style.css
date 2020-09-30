@@ -1,0 +1,89 @@
+nav {
+    background-color:  #9c9999;
+}
+ 
+.navbarLogo {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.navitem {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 70px;
+    padding-right: 30px;
+    font-size: 25px;
+}
+
+
+#sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #sideNav .navbar-toggler:focus {
+    outline-color: #d48a6e;
+  }
+
+@media (min-width: 992px) {
+    #sideNav {
+      color: #9c9999;  
+      background-color: #9c9999;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      width: 17rem;
+      height: 100vh;
+    }
+    #sideNav .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem;
+    }
+    #sideNav .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto;
+    }
+    #sideNav .navbar-collapse .navbar-nav {
+      flex-direction: column;
+      width: 100%;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+      display: block;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+      display: block;
+    }
+  }
+
+body{
+  background-image: url(Img/bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-position-y: 15px;
+}
+
+.card {
+  size: 400px;
+  position: middle;
+
+}
+
+h5{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 200px;
+
+}
+
+p{
+  padding-left: 75px;
+}
